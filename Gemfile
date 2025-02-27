@@ -44,6 +44,9 @@ gem "bootsnap", require: false
 # jolis formulaires
 gem "simple_form"
 
+# faker des restaurants
+gem "faker"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
